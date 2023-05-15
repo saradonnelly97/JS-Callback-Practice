@@ -1,6 +1,7 @@
 const inventory = newInventory()
 move(inventory).to(0, 0)
 
+
 const character = newImage('assets/green-character/static.gif')
 let direction = null;
 let x = 100;
@@ -23,6 +24,13 @@ function moveCharacter(){
     character.style.bottom = y + 'px'
 }
 setInterval(moveCharacter, 1)                                    
+
+
+
+move(character).to(100, 250)
+
+
+
 
 
 
