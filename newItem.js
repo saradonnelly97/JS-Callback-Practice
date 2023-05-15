@@ -1,5 +1,5 @@
-function newItem(url){
-    let item = newImage(url)
+function newItem(url, left, bottom){
+    let item = newImage(url, left, bottom)
     item.addEventListener('click', () => {
         item.remove()
         let inventoryItem = document.createElement('img')

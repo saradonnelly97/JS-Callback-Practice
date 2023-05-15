@@ -3,6 +3,7 @@ move(inventory).to(0, 0)
 
 const character = newImage('assets/green-character/static.gif')
 move(character).to(100, 250)
+let direction = null;
 
 
 move(newImage('assets/tree.png')).to(200, 450)
